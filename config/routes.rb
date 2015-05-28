@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
     root "pages#home"
     get "about" => "pages#about" #Created about page
-
+    get "team" => "pages#team" #Created about page
+    get "fatima" => "pages#fatima" #Created page for cousin Fatima during visit
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
